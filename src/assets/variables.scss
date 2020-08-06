@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;600&display=swap");
+
+// Primary //
+
+$strong-cyan: hsl(171, 66%, 44%);
+$lightblue: hsl(233, 100%, 69%);
+
+// Neutral //
+
+$darkgray-blue: hsl(210, 10%, 33%);
+$gray-blue: hsl(201, 11%, 66%);
+$footer-back: #f2f5f7;
+
+// Fonts //
+
+$fontsize: 18px;
+$font-fam: "Bai Jamjuree", sans-serif;
+$weight-normal: 400;
+$weight-bold: 600;
+
+// Button colors and shadows //
+
+$btncolor-ios: #26baa4;
+$btncolor-mac: #6173ff;
+$ios-shadow: 0 3px #1d907f, 0 10px 15px rgba(38, 186, 164, 0.5);
+$mac-shadow: 0 3px #2e46ff, 0 10px 15px rgba(97, 115, 255, 0.5);
+
+// Responsive variables //
+
+$avg-width: 85%;

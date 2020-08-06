@@ -1,0 +1,226 @@
+@import "./variables.scss";
+
+@media screen and (max-width: 867px) {
+  section.home {
+    .home-container {
+      width: $avg-width;
+      margin: 0px auto;
+    }
+  }
+
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  section.info {
+    margin-bottom: 0 !important;
+    .info-container {
+      width: $avg-width;
+      margin: 0 auto;
+    }
+  }
+
+  section.infonext {
+    flex-direction: column;
+
+    .pcimg {
+      margin-top: 0 !important;
+      max-width: 100% !important;
+      transform: scale(0.7) translateX(0px) !important;
+    }
+
+    .infonext-content {
+      justify-content: center;
+      align-items: center;
+      text-align: center !important;
+      margin-left: 0px !important;
+
+      .spec {
+        margin-bottom: 2rem;
+      }
+
+      .infonext-desc {
+        text-align: center;
+        width: $avg-width;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  section.workflow {
+    width: $avg-width;
+    margin: 10rem auto 5rem auto !important;
+
+    .work-content {
+      width: $avg-width;
+      margin: 0 auto;
+    }
+
+    .workflow-product-cont {
+      margin-top: 5rem !important;
+      margin-bottom: 5rem !important    ;
+    }
+    .product-card {
+      flex-direction: column;
+      margin: 5rem auto auto auto !important;
+
+      .prod {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 3rem auto !important;
+      }
+    }
+  }
+
+  section.sponsors {
+    width: $avg-width;
+    .sponsor-flex {
+      flex-direction: column;
+
+      img {
+        margin-bottom: 5rem;
+      }
+    }
+  }
+
+  section.platform {
+    width: $avg-width;
+    margin: 5rem auto 10rem auto !important;
+
+    h1,
+    .plat-desc {
+      margin: 2rem auto;
+      max-width: auto !important;
+    }
+    .plat-desc {
+      font-size: $fontsize !important;
+    }
+  }
+
+  footer {
+    padding: 3rem !important;
+    max-width: 100%;
+    .footer-container {
+      flex-direction: column;
+
+      .logo-container {
+        margin-bottom: 1rem;
+      }
+
+      .footer-menu {
+        .list1 {
+          ul {
+            margin-bottom: 0 !important;
+            li {
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              a {
+                margin: 0 0 1.75rem 0 !important;
+              }
+            }
+          }
+        }
+        .list2 {
+          ul {
+            margin-top: 0px !important;
+            li {
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              a {
+                margin: 0 0 1.75rem 0 !important;
+              }
+            }
+          }
+        }
+      }
+      .social-media {
+        ul {
+          margin: 0px !important;
+          li {
+            a {
+              margin: 1rem !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+  section.home {
+    padding-top: 6rem !important;
+    background: url("./images/bg-header-mobile.png") no-repeat center/cover !important;
+    .hometitle {
+      font-size: 2rem !important;
+    }
+    .homedesc {
+      font-size: $fontsize !important;
+    }
+    .homebuttons {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+
+      button.btn-mac {
+        margin-left: 0px;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  section.workflow {
+    width: $avg-width;
+    margin: 10rem auto 5rem auto !important;
+
+    .product-card {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+
+      .prod {
+        width: auto !important;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 3rem auto !important;
+      }
+    }
+  }
+
+  section.sponsors {
+    .sponsor-flex {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        margin-bottom: 5rem;
+      }
+    }
+  }
+
+  section.platform {
+    .platform-container {
+      width: $avg-width;
+      margin: 0 auto;
+      .platform-buttons {
+        width: $avg-width + 15 !important;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+        button.btn-ios,
+        button.btn-mac {
+          font-size: 17px !important;
+        }
+
+        button.btn-mac {
+          margin-left: 0px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
